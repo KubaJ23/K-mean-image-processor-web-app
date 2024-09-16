@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="controlsContainer">
+        <input type="file" accept="image/*" id="inputImage" class="configInput">
+        <br>
+        <label>Number of different colours:</label>
+        <input type="number" id="numberOfColoursInput" class="configInput">
+        <br>
+        <label>Depth of iterations to find the colours:</label>
+        <input type="number" id="DepthOfIterationsInput" class="configInput">
+        <br>
+        <button id="processBtn" class="configInput">Process Image</button>
+    </div>
+    <div id="imageContainer">
+        <label>Before:</label>
+        <canvas id="originalImage"></canvas>
+        <br>
+        <label>After:</label>
+        <canvas id="processedImage"></canvas>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

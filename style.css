@@ -1,0 +1,33 @@
+#originalImage, #processedImage{
+    width: 600px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#controlsContainer{
+    margin-bottom: 4px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(123, 60, 250);
+    color: white;
+}
+#imageContainer{
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+.configInput{
+    margin: 5px;
+}
+button{
+    border-radius: 7px;
+    padding: 5px;
+    border-width: 1px;
+    cursor: pointer;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
